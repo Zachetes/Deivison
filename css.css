@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    background-color: bisque;
+    text-decoration: dashed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+    text-align: center;
+    text-decoration: dashed;
+}
+
+p{
+    text-decoration: dashed;
+    font-size: 26px;
+    background-color: azure;
+}
+
+body{
+    background-image: url(https://cdn.shopify.com/s/files/1/0305/4075/9177/products/papel-de-parede-adesivo-folha-natureza-n02268-273452.jpg?v=1643339362);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#areamenu{
+    width: 1100px;
+    height: 40px;
+    margin: 10px;
+    background: rgb(5, 0, 5);
+}
+
+#logo{
+    width: 235px;
+    line-height: 40px;
+    float: left;
+    margin: 0 50px 0 15px;
+}
+
+#logo1{
+    font-size: 26px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 100;
+}
+
+#menu{
+    width: 800px;
+    float: left;
+    line-height: 40px;
+    text-align: right;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    display: table-cell;
+    padding: 0 40px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu ul li a:hover{
+    background: rgb(226, 154, 214);
+    transform: scale(1.1);
+}
